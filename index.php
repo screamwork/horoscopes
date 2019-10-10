@@ -39,7 +39,7 @@
             margin-top: 1.75rem;
         }
         .hs-heading {
-            padding: 3rem 0 1.25rem;
+            padding: 1.75rem 0 0;
         }
         .hs-content-strong {
             margin: 0 0.25rem 1.5rem 0;
