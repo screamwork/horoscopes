@@ -27,7 +27,7 @@
 
 ?>
 
-    <link href="style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
     <style>
         .hs-wrap {
             padding: 25px;
@@ -35,8 +35,11 @@
             border: 1px solid lightgrey;
             border-radius: 5px;
         }
+        .hs-section {
+            margin-top: 1.75rem;
+        }
         .hs-heading {
-            padding: 3rem 0;
+            padding: 3rem 0 1.25rem;
         }
         .hs-content-strong {
             margin: 0 0.25rem 1.5rem 0;
@@ -74,7 +77,7 @@
                     <?php if(property_exists($values, "headline")): ?>
                       <div class="row">
                           <div class="col-xs-12">
-                              <div>
+                              <div class="hs-section">
                                   <strong class="hs-content-strong"><?php echo $values->headline; ?>:</strong>
                                   <p class="hs-content-p"><?php echo $values->content; ?></p>
                               </div>
